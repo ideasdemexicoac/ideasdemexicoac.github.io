@@ -381,7 +381,7 @@
 					<div class="slideshow-container">
 
 					  <!-- Full-width images with number and caption text -->
-					  <a href="#">
+					  <a href="actividad1">
 					  <div class="mySlides fade">
 					  	<div class="numbertext">1 / 3</div>
 					    <img src="images/actividades/img1.jpg" style="width:100%">
@@ -389,7 +389,7 @@
 					  </div>
 					</a>
 
-					 <a href="#">
+					 <a href="actividad2">
 					  <div class="mySlides fade">
 					  	<div class="numbertext">2 / 3</div>
 					    <img src="images/actividades/img2.JPG" style="width:100%">
@@ -397,7 +397,7 @@
 					  </div>
 					</a>
 
-					  <a href="#">
+					  <a href="actividad3">
 					  <div class="mySlides fade">
 					  	<div class="numbertext">3 / 3</div>
 					    <img src="images/actividades/img3.JPG" style="width:100%">
@@ -449,9 +449,9 @@
 						  dots[slideIndex-1].className += " active3";
 						}
 						
-						setInterval(function(){
+						/*setInterval(function(){
 						   	plusSlides(1);
-						}, 10000); // Cambia la imagen cada cierto tiempo
+						}, 10000); // Cambia la imagen cada cierto tiempo*/
 						
 					</script>
 			</section>
@@ -483,7 +483,9 @@
 				<span id="mapa" class="image fit main bottom"><div id="map" style="width:100%; height: 100vh; background-color: grey; position: relative;display: block;"></div></span>
 				<script>
 					function initMap() {
-						var ideas = {lat: 19.150281, lng: -96.961349};
+						//19.150243, -96.961320
+						//var ideas = {lat: 19.150281, lng: -96.961349};
+						var ideas = {lat: 19.149509, lng: -96.962936};
 						var map = new google.maps.Map(document.getElementById('map'), {
 							zoom: 16,
 						    center: {lat: 19.150439, lng: -96.966887}
